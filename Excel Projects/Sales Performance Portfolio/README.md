@@ -5,14 +5,18 @@ The goal of this project is to analyze sales data to understand overall business
 The analysis focuses on identifying sales trends, top-performing products, high-revenue regions, and overall profitability.
 
 ## Dataset
-The dataset contains 300 sales records with bellow informations 
-- Order date 
-- Product 
-- Region
-- Salesperson
-- Revenue
-- Profit
-- Quantity sold
+The dataset contains 300 sales records with the following fields:
+
+| Column Name     | Description                              |
+|-----------------|------------------------------------------|
+| Order Date      | Date when the sale was made              |
+| Product         | Name of the product sold                 |
+| Region          | Sales region                             |
+| Salesperson     | Name of the salesperson                  |
+| Revenue         | Total revenue from the sale              |
+| Profit          | Profit earned from the sale              |
+| Quantity Sold   | Number of units sold                     |
+
 
 ## Key Questions
 - Which month recorded the highest sales?
@@ -44,7 +48,7 @@ The dashboard includes slicers that allow users to filter the data by region, pr
 When a slicer is selected, all charts and KPIs update instantly, making it easier to explore 
 sales performance and compare different segments.
 
-[Watch dashboard interactivity video](slicer_changes.mp4)
+[Watch dashboard interactivity video](slicer_and_changes.mp4)
 
 
 
